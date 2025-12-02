@@ -1,0 +1,24 @@
+galaxy_info:
+  author: MANTRA Chain Tech
+  description: Infrasec Ansible role for k3s in debian and ubuntu systems.
+  company: MANTRA
+
+  # The license for the role.
+  license: GPL-3.0
+
+  min_ansible_version: "2.9"
+
+  # A list of platforms the role supports
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+
+# A list of other roles that this role depends on.
+# For example, if your 'sudo' role required the 'base' role to be run first.
+dependencies: []
